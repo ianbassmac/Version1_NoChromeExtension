@@ -1,0 +1,36 @@
+/*
+https://stackoverflow.com/questions/40602300/highlighting-line-of-text-in-div-while-scrolling
+Source for "Highlighter" css.
+*/
+
+#highlight {
+	position: fixed;
+	top: 30%;
+    left: 15%;
+	width: 70%;
+	background-color: #ffff21;
+	height: 30px;
+	z-index: -1;
+}
+
+.custom-select {
+    width: 200px;
+  position: absolute;
+  font-family: Arial;
+    top: 20px;
+  right: -20px;
+}
+
+p{
+	margin: 30vh 0;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+body{
+    margin: 0 auto;
+    width: 70%;
+    min-height: 325vh;
+
+    
+}
